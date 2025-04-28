@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="138d3bbf-0a21-4c43-a4e8-989010a12245">
+  <producedTypes>
+    <objectType typeId="3f6bcc50-1636-484e-9252-5ce80bacca94" valueTypeId="c72c8527-2ac6-4f9d-9a45-e7fda717cf10"/>
+    <refType typeId="33fc9756-b6d9-460f-9f99-6f18c17bcead" valueTypeId="fcb58284-2ca4-4990-9c73-5f8985eaa44c"/>
+    <selectionType typeId="8c97989b-d41f-44b3-866b-feca0f08d200" valueTypeId="5018c31c-7120-4819-b949-c481cc3c1260"/>
+    <listType typeId="fecc59c4-c8a5-4519-a483-7458f13c0da8" valueTypeId="2744f584-440e-4b35-bfa4-83834ab65abc"/>
+    <managerType typeId="5c8dcfa0-e488-4a1a-96b3-bd20c975fa27" valueTypeId="27bc884c-0006-4fe2-9238-44db08fb1919"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Продукт</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Продукция</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="63cfa0ba-5f6b-47ea-b631-03af86d4ad86">
+    <name>ВидУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид упаковки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидУпаковки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

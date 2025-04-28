@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="096ee2c1-52f3-4e6d-9bad-9c9205b06cb3">
+  <producedTypes>
+    <objectType typeId="6411b254-fdc3-443a-a115-f502019c7256" valueTypeId="0062482e-1dbd-4081-b108-2872b841e569"/>
+    <refType typeId="2462104f-823d-4a9a-9a39-596bebe7748c" valueTypeId="532174bc-8bd8-4580-9649-9db36582b2e6"/>
+    <selectionType typeId="8f2af1c5-7bab-4a0a-a382-cfd38e111db5" valueTypeId="7abb56cc-288c-4c4b-a2fd-3a47a747e169"/>
+    <listType typeId="bd0b7d73-aca8-498c-bdf8-4d911ccf08fa" valueTypeId="0ed334a3-5ea2-44b7-9b5a-08178a9e0e3a"/>
+    <managerType typeId="dbcfb9fe-2e07-4a2e-9b03-aaca3987182d" valueTypeId="0fe695d5-7a41-4dfc-ad66-3739b72d848d"/>
+  </producedTypes>
+  <name>Оборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="18dd7724-5916-4c41-b4ba-c7518e99e50e">
+    <name>ЗаводскойНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

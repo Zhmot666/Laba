@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c95e2590-9d10-469a-b33a-8bc8b0ba2d51">
+  <name>Измерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измерения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.НоминальныйОбъем</content>
+  <content>Catalog.Оборудование</content>
+</mdclass:Subsystem>

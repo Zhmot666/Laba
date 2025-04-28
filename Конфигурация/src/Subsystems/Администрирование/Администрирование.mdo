@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca93fdde-06fc-4e41-bab4-2ff1b40931af">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.МестаХранения</content>
+  <content>Catalog.ТНПА</content>
+  <content>Enum.ВидКонтрля</content>
+  <content>Catalog.ВидУпаковки</content>
+  <content>Catalog.Условия</content>
+  <content>Catalog.Оборудование</content>
+  <content>Catalog.ПоказателиИспытаний</content>
+  <content>Enum.Соответсвие</content>
+</mdclass:Subsystem>

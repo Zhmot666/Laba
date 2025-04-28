@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="452c6a68-8a1b-4a78-8cf3-4ca308310822">
+  <producedTypes>
+    <refType typeId="f3abc2f0-739f-4874-8e11-ab8a1bb2ce71" valueTypeId="f2740af4-5750-4e8b-bd08-8685c1f98eeb"/>
+    <listType typeId="dc8dfdbe-2018-4dec-861d-710fbfe5b0a2" valueTypeId="d9a522b8-fd7c-441b-871c-47c23acfd415"/>
+    <managerType typeId="70fa5c72-1fd7-45aa-805a-45564157821f" valueTypeId="e9e056ae-6f02-4ea8-a40a-02df521c8374"/>
+  </producedTypes>
+  <name>ВидКонтрля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид контрля</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="31b7a8cd-9d04-4647-b1b3-e051c617d8c3">
+    <name>Разрушающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрушающий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

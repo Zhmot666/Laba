@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31607a45-6865-4345-a150-d37a1ce0a163">
+  <producedTypes>
+    <objectType typeId="5e61fd50-04aa-4d4f-9e82-a5297679850c" valueTypeId="0ee40396-5de4-4d3c-ae4a-b476afbceaf0"/>
+    <refType typeId="8c1df74e-26a0-4eae-a9af-5ea005c8a0ba" valueTypeId="1c6174e3-a435-4218-b477-d2c574dcf3a4"/>
+    <selectionType typeId="941d56de-19e5-4837-9b3a-51e39da12945" valueTypeId="13d0a3c2-1ee6-4978-9dc0-ed30d15817dd"/>
+    <listType typeId="c763318d-1473-4d44-beb6-2c65c1b2e012" valueTypeId="31842b88-c55d-415b-8029-8c5657e5c48c"/>
+    <managerType typeId="f5a394e0-c462-4491-a96b-1a090368ff96" valueTypeId="1a2a8334-993b-410c-9d89-36f26e851d66"/>
+  </producedTypes>
+  <name>ТНПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТНПА</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТНПА.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТНПА.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Технический нормативный правовой акт</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Технические нормативные правовые акты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
