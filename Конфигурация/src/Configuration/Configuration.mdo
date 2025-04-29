@@ -16,6 +16,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Зудешл</vendor>
+  <version>0.1.1.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -41,14 +43,26 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Измерения</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускТолстогоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.Лаборант</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <constants>Constant.НаименованиеПредприятия</constants>
+  <constants>Constant.Руководитель</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.ВидУпаковки</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
   <catalogs>Catalog.ПоказателиИспытаний</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТНПА</catalogs>
   <catalogs>Catalog.Условия</catalogs>
   <documents>Document.НоминальныйОбъем</documents>
+  <documents>Document.Поверка</documents>
   <enums>Enum.ВидКонтрля</enums>
   <enums>Enum.Соответсвие</enums>
+  <informationRegisters>InformationRegister.Поверки</informationRegisters>
 </mdclass:Configuration>

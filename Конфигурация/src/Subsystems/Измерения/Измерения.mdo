@@ -9,4 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.НоминальныйОбъем</content>
   <content>Catalog.Оборудование</content>
+  <content>Document.Поверка</content>
+  <content>Role.ЗапускВебКлиента</content>
+  <content>Role.ЗапускТонкогоКлиента</content>
 </mdclass:Subsystem>

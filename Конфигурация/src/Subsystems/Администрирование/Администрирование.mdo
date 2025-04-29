@@ -16,4 +16,10 @@
   <content>Catalog.Оборудование</content>
   <content>Catalog.ПоказателиИспытаний</content>
   <content>Enum.Соответсвие</content>
+  <content>Document.Поверка</content>
+  <content>InformationRegister.Поверки</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Role.ЗапускВебКлиента</content>
+  <content>Role.ЗапускТонкогоКлиента</content>
+  <content>Role.АдминистраторСистемы</content>
 </mdclass:Subsystem>
