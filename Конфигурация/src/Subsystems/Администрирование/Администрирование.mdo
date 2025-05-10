@@ -12,7 +12,7 @@
   <content>Catalog.ТНПА</content>
   <content>Enum.ВидКонтрля</content>
   <content>Catalog.ВидУпаковки</content>
-  <content>Catalog.Условия</content>
+  <content>Catalog.УсловияИспытаний</content>
   <content>Catalog.Оборудование</content>
   <content>Catalog.ПоказателиИспытаний</content>
   <content>Enum.Соответсвие</content>
@@ -22,4 +22,7 @@
   <content>Role.ЗапускВебКлиента</content>
   <content>Role.ЗапускТонкогоКлиента</content>
   <content>Role.АдминистраторСистемы</content>
+  <content>Catalog.НаборыОборудования</content>
+  <content>Catalog.ПланыКонтроля</content>
+  <content>Catalog.Испытания</content>
 </mdclass:Subsystem>

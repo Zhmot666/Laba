@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20aa530b-8e65-45ab-9cd5-d76ea296f07e">
+  <producedTypes>
+    <objectType typeId="3e99ccaf-f443-427b-a00a-cf5e7b576b06" valueTypeId="9ab3112d-a1ab-441c-b0a8-31353018f384"/>
+    <refType typeId="587e115f-2122-414e-8461-aabad7144f17" valueTypeId="4dd2738c-1c69-455a-9f3f-555123001660"/>
+    <selectionType typeId="f70d66d7-e52b-4236-81fd-21e145a88598" valueTypeId="7264fdbb-ede6-4ade-8113-736b5061ddaf"/>
+    <listType typeId="837e9c81-dcfa-4c15-9390-ec72fcc23d3f" valueTypeId="c8758e69-40c0-404f-b9f9-c9ed90ca1139"/>
+    <managerType typeId="ab0d2082-0722-46a9-9443-8c66d6c74921" valueTypeId="919b0532-2c2a-42f1-80d9-a85ff417a2a6"/>
+  </producedTypes>
+  <name>ПланыКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы контроля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПланыКонтроля.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПланыКонтроля.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>План контроля</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Планы контроля</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ce36d48c-4191-4900-aaa9-cc831030a30f">
+    <name>ИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8899c47e-93bf-4216-965f-71e5b1f0205b">
+    <name>МинимальныйОбъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2131a70-de1c-46fc-8b79-5a28770369bb">
+    <name>МаксимальныйОбъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a031ac18-59e5-4bf6-a84a-58a1c6bfde2c">
+    <name>ОбъемВыборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем выборки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b87578b-1689-4123-9488-f57040c23b77">
+    <name>ПриемочноеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемочное число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="019d621f-c754-4a12-af89-1cb8e35dd395">
+    <name>БраковочноеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Браковочное число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a13e13c-e116-476a-a2c9-455cc3abe36f">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

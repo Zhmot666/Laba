@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="777861ab-e68a-48aa-931c-a0c8ce86a220">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="777861ab-e68a-48aa-931c-a0c8ce86a220">
   <producedTypes>
     <objectType typeId="9c9ba322-fe67-45ae-a165-170ff945808f" valueTypeId="0654aae1-3a4c-46fc-9521-53f280a3a7fc"/>
     <refType typeId="794587e3-c45f-4d00-ba09-499c45668b0f" valueTypeId="dd82c17d-4d07-4c9b-a970-50402ee85fe2"/>
@@ -7,14 +7,14 @@
     <listType typeId="d13ddc43-e7a1-488a-aa0b-fd73811012fc" valueTypeId="554be18a-0541-4af3-a114-4da64138b8ae"/>
     <managerType typeId="c64288db-3d2f-4cdc-948f-db404db3e6e8" valueTypeId="597f3c15-96e8-4d18-8edd-71cb11edfea1"/>
   </producedTypes>
-  <name>Условия</name>
+  <name>УсловияИспытаний</name>
   <synonym>
     <key>ru</key>
     <value>Условия проведения испытаний</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Условия.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Условия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УсловияИспытаний.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УсловияИспытаний.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -36,6 +36,29 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d20c78f2-98e3-4858-8123-52579a2ff5f2">
+      <name>ТемператураВоздуха</name>
+      <description>Температура окружающего воздуха, 0 С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="969e370f-8643-4acc-9eea-8899b85bfbff">
+      <name>ОтносительнаяВлажность</name>
+      <description>Относительная влажность, %</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6c57d0ba-84cb-426a-b612-516e71292c1e">
+      <name>АтмосферноеДавление</name>
+      <description>Атмосферное давление, кПа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

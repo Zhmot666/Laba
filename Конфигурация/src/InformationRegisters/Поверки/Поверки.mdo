@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98c6c01d-4df8-43cb-b9fa-9fa6d48dfa28">
+  <producedTypes>
+    <selectionType typeId="da2c3ae9-7c3d-4ba8-842e-11b71429c7c6" valueTypeId="341c0a1a-7a6c-43c5-89c4-07e56a94d6b3"/>
+    <listType typeId="1baf7c6f-336c-4cb7-b0f1-c19d3d426547" valueTypeId="90ceeee3-e27c-4d1d-9bf3-8b717dbdb23b"/>
+    <managerType typeId="729dc816-ed79-4b96-a46e-eaeb5e41b136" valueTypeId="665dd942-6649-4f15-a683-581bd2dae738"/>
+    <recordSetType typeId="eba5795e-cf2e-440f-99ef-e26d7eefd348" valueTypeId="f9c5aea5-aa3c-4089-ae46-6ab4a44c76fd"/>
+    <recordKeyType typeId="0d488fb2-c22e-4e58-bb8e-85b20f4510c2" valueTypeId="84ccdca7-e0ed-4bcf-8f18-e736dad429ef"/>
+    <recordType typeId="5bc2a2d5-82bc-4cf8-9947-043702e12577" valueTypeId="79f90d0e-7a2d-4b56-bc8a-7ef34790010a"/>
+    <recordManagerType typeId="3130c305-8d16-45f3-ab06-3fe62515c2e3" valueTypeId="6151bf31-6159-4c39-8814-272c731136f6"/>
+  </producedTypes>
+  <name>Поверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поверки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="de9e7b07-f39c-4212-86ea-fc23bb5ca2f7">
+    <name>ДатаПоверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0bf528bf-ad31-4ce8-93e6-031c48f26c3b">
+    <name>ДатаСледующейПоверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующей поверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="78328301-33de-4e04-91e4-f5845739f8bd">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

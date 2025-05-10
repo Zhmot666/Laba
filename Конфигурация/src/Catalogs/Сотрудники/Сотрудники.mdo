@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8f1a2aa-7d76-43d8-a884-643a5fe510a1">
+  <producedTypes>
+    <objectType typeId="866691d9-cc0d-4956-bb3d-daeb2d1572a6" valueTypeId="e92df2ae-cdb4-4127-8a64-32cd762b2de9"/>
+    <refType typeId="20a32635-1de8-4fd4-9935-2448f991cb6b" valueTypeId="6fdc5cff-aa5f-461b-8c50-fd896ed04094"/>
+    <selectionType typeId="6e410ede-1667-42d1-9cc1-8aaeb3fdb58c" valueTypeId="8af935e9-7e49-471f-b180-209f80dfd502"/>
+    <listType typeId="8c90d7ed-0466-4d7a-8fb0-8fc51cf3d887" valueTypeId="15724fc2-ae34-48a4-94dd-5025b62cb85e"/>
+    <managerType typeId="baee3411-37a6-4c70-bea4-d53273b0b3f8" valueTypeId="57179195-0b93-4588-89ea-093a18f3d6cc"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7d3c6225-5728-441c-ae63-b132147c9aa9">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

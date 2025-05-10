@@ -49,17 +49,21 @@
   <roles>Role.ЗапускТонкогоКлиента</roles>
   <roles>Role.Лаборант</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <constants>Constant.НаименованиеПредприятия</constants>
   <constants>Constant.Руководитель</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.ВидУпаковки</catalogs>
+  <catalogs>Catalog.Испытания</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
+  <catalogs>Catalog.НаборыОборудования</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Оборудование</catalogs>
+  <catalogs>Catalog.ПланыКонтроля</catalogs>
   <catalogs>Catalog.ПоказателиИспытаний</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТНПА</catalogs>
-  <catalogs>Catalog.Условия</catalogs>
+  <catalogs>Catalog.УсловияИспытаний</catalogs>
   <documents>Document.НоминальныйОбъем</documents>
   <documents>Document.Поверка</documents>
   <enums>Enum.ВидКонтрля</enums>
